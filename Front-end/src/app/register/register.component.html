@@ -1,0 +1,22 @@
+<h2>Register</h2>
+<form>
+    <div class="form-group">
+        <label for="firstname"> First Name</label>
+        <input id="firstname" name="firstname" type="text" required [(ngModel)]="firstname">
+    </div>
+
+    <div class="form-group">
+        <label for="lastname">Last Name</label>
+        <input id="lastname" name="lastname" type="text" required [(ngModel)]="lastname">
+    </div>
+    <div class="form-group">
+        <label for="email"> Email</label>
+        <input id="email" name="email" type="text" required [(ngModel)]="email">
+    </div>
+    <div class="form-group">
+        <label for="password"> Password</label>
+        <input id="password" name="password" type="password" required [(ngModel)]="password">
+    </div>
+    <button type="button" (click)="registerUser()">Register</button>
+    <a routerLink="/login" routerLinkActive="active">Login</a>
+</form>

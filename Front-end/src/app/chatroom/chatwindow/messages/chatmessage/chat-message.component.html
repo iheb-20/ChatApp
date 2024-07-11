@@ -1,0 +1,9 @@
+<div class="chat-message">
+
+    <div class=".chat-message-content you" *ngIf="chatMessage.senderId === currentUserId">
+        {{ chatMessage.content }}
+    </div>
+    <span class=".chat-message-content" *ngIf="chatMessage.senderId !== currentUserId">
+        {{ chatMessage.content }}
+    </span>
+</div>

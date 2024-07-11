@@ -1,0 +1,49 @@
+.chatroom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    top: 10px;
+    flex-wrap: nowrap;
+    column-gap: 60px;
+    border-radius: 20px;
+}
+.welcome-message-guest {
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+
+    color: #b5b5b5;
+}
+.navbar{
+    position: absolute;
+    top: 30px;
+    opacity: 80%;
+    right: 500px;
+}
+
+.logout
+{
+    position: absolute;
+    right:40px;
+    top: 20px;
+}
+.edit-profile{
+
+    background-color: #0ab42c; /* Red color for logout */
+    color: #fff; /* White text color */
+    position: absolute;
+    right:155px;
+    top: 20px;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for text */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+
+}
+
+
+

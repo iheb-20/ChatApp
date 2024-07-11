@@ -1,0 +1,25 @@
+.chat-message
+{
+    display: flex;
+    margin: 5px;
+    padding: 1px;
+    border-radius: 8px;
+    width: fit-content;
+
+}
+.chat-message .you {
+    position: relative;
+    right: -420px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #a27171;
+}
+.chat-message :not(.you) {
+
+    padding: 8px;
+    border-radius: 8px;
+
+    background-color: #aec88d;  /* Default background for non-user messages */
+}
+
+

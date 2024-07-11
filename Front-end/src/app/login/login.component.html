@@ -1,0 +1,22 @@
+<div class="container" >
+    <h2>Login</h2>
+    <form >
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" [(ngModel)]="this.email" id="email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" [(ngModel)]="this.password" id="password" name="password">
+        </div>
+
+        <button type="submit" (click)="onLogin()">Login</button>
+
+        <a (click)="onRegister()"  >Register</a>
+
+    </form>
+    <router-outlet></router-outlet>
+</div>
+
+
+

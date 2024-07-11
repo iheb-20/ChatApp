@@ -1,0 +1,9 @@
+<div class="container">
+     <h3>Online Users
+     </h3>
+     <app-user (click)="selectUser(user)"  *ngFor="let user of users$ | async"  [user]="user"></app-user>
+</div>
+
+
+
+
